@@ -1,0 +1,501 @@
+﻿html,body {
+    height:100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+   margin: 0;
+   background-color: bisque;
+}
+
+#mainmenu{
+  width: 100%;
+  float: left;
+  height: auto;
+   background-color:white;
+  position:relative;
+}
+
+/*Login*/
+#logo{
+  background-size: cover;
+  float: left;
+  width: 100%;
+  
+}
+
+#present_catrgory{
+    width:50%;margin-left:25%;margin-bottom: 5px;
+}
+
+.editattendance{
+    float:left;width:100%;
+padding-bottom: 10px;
+}
+
+
+#logo img{
+  width: 50%;
+  margin-left: 25%;
+  height: 35vh;
+}
+
+/*Faculty time Table*/
+#timetablecategory ul li{
+    width: 40%;
+  float: left;
+  padding: 3%;
+  background-color: #3cadd4;
+  color: white;
+  font-weight: bold;
+  cursor:pointer;
+}
+#timetablecategory ul li a:hover{
+    background-color:cadetblue;
+}
+
+#branchinfo b{
+    width:100%;
+}
+
+.userclick{
+    background-color:cadetblue;
+}
+
+
+.cal_button{
+    background-color: skyblue;
+  color: white;
+  border: 0;
+  font-weight: bold;
+  padding: 2%;
+  float:left;
+  margin-right:0.7%;
+}
+
+
+#loginfrm{
+width: 100%;
+float: left;
+height: 55%;
+}
+
+#menu{
+    float: left;
+  width: 100%;
+  position:absolute;
+}
+
+#openmenu{
+    float:left;
+    float: left;
+  height: 10%;
+  width:100%;
+}
+#openmenu img{
+    height: 100%;
+  width: 18%;
+  margin-left: 3%;
+  cursor:pointer;
+}
+
+#username{
+    float: left;
+  width: 100%;
+  background-color: skyblue;
+  color: white;
+  text-align: right;
+}
+
+/*Student_Profile*/
+#StudentProfile{
+  float: left;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+#username p{
+    margin-right: 5%;
+    font-weight:bold;
+}
+
+
+#freg,#periodadd,#deptreg{
+width: 100%;
+float: left;
+height: 55%;
+}
+
+/*#loginfrm p,#freg p,#periodadd p,#deptreg p,#search p,#info p,#searchmodule p,#takeattandance p,#classinfo p,#studentreg,#StudentProfile p{
+    font-size: 1.2em;
+  margin-left: 10%;
+}*/
+/*#loginfrm input{
+    width:80%;
+    margin-left:10%;
+}*/
+
+#userarea p.main{
+     font-size: 1.2em;
+  margin-left: 10%;
+}
+
+#frgtpaswd{
+text-align: right;
+cursor:pointer;
+
+}
+
+#signup a{
+    text-decoration:initial;
+    font-weight:bold;
+}
+
+#btnsignup{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+.periods b{
+    width: 48%;
+  float: left;
+  padding: 1%;
+ 
+}
+
+.periods{
+    float:left;
+    width:100%;
+    margin-bottom:2%;
+}
+
+.p_time,.department,.branchinfo,.subject_info{
+    border: solid;
+  border-width: 1px;
+  float:left;width:100%;
+  background-color:white;
+}
+
+#studentinfoview 
+
+{
+    width:100%;
+}
+
+
+
+
+#footer{
+background: #333333;
+color:white;
+height: 10%;
+float: left;
+  width: 100%;
+}
+
+#footer p{
+    text-align: right;
+ margin-top: 8%;
+  margin-right: 2%;
+  float: right;
+  font-size: 17px;
+}
+#footer a{
+text-decoration: initial;
+  font-weight: bold;
+color:white;
+}
+
+.textbox{
+    border: 2px solid #cccccc;
+  font-size:1.1em;
+  color: #666;
+  top: 9px;
+  left: 0px;
+  width: 80%;
+  margin-left: 10%;
+  padding:5px;
+  /*height:5vh;*/
+}
+#frgtpaswd p{
+    margin-right:10%;
+}
+
+
+
+.aspbutton{
+    background-color: #3cadd4;
+  border-radius: 30px;
+  border: 0;
+  color: #ffffff !important;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  height: 2.85em;
+  line-height: 2.95em;
+  padding: 0 2em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  width: 80%;
+  margin-left: 10%;
+  font-weight: bold;
+
+}
+
+#menu{
+    display:none;
+}
+
+#menu ul{
+    list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 2%;
+}
+#menu a{
+       background-color: #3cadd4;
+  border-radius: 30px;
+  border: 0;
+  color: #ffffff !important;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  height: 38px;
+  line-height: 2.95em;
+  padding: 0 2em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  width: 75%;
+  margin-bottom: 2px;
+}
+
+#userarea{
+    float: left;
+  width: 100%;
+ min-height:80vh;
+  overflow:auto;
+}
+
+
+#registerbutton,#period_save,#deptregbutton,#searchbutton{
+    margin-top:5%;
+}
+
+#title{
+    float: left;
+  height: 12%;
+  text-align: center;
+  background-color: darkturquoise;
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#title h1{
+    margin-top: 6%;
+}
+
+
+/*Student*/
+
+#maininfo,#editinfo{
+   width:100%;
+   float:left;
+}
+.editinfo{
+display: none;
+}
+
+
+#u_n_01{
+float: right;
+  margin: 10px 15px;
+}
+#u_n_01 img{
+  width: 25px;
+
+}
+
+
+.lables{
+font-size: 17px;
+  margin-left: 10%;
+  font-weight:bold;
+}
+
+.pre_apse a{
+   padding-left: 3%;
+  background-color: red;
+  font-weight: bold;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 3%;
+  float: right;
+}
+
+
+ .pre_apse{
+    float:right;
+    width: 50%;
+}
+
+ .studentsinfo th{
+     padding-right:5px;
+ }
+
+
+ .studentsinfo td{
+     text-align:center;
+ }
+
+
+ /*take attendance*/
+
+ #userarea a.btnpresent,#userarea a.absent,.pre-absentstudents{
+     float:left;
+     color: #f4f4f4;
+ background-color:skyblue;
+  font-weight: bold;
+padding: 5px 10px 5px 10px;
+  margin-top: 5px;
+  margin-right:5px;
+  font-family: Arial,sans-serif;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 2px;
+  cursor:pointer;
+ }
+
+
+ .pre-absentstudents{
+     background-color:skyblue;
+     width:80%;
+     margin-left:10%;
+padding: 5px 5px 5px 5px;
+     margin-right:10%;
+     border-bottom:none;
+ }
+
+ 
+
+
+
+ #userarea a.absent{
+     background: #2a8a85;
+ }
+
+ #categorylist li{
+   float: left;
+  color:black;
+  padding: 5px 10px 5px 10px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-family: Arial,sans-serif;
+  -webkit-border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+ }
+
+#categorylist li.select {
+    
+    color: darkturquoise;
+}
+
+#category{
+    float:right;width:65%;
+}
+
+#categorylist{float:right;width:65%;position: absolute;background-color:white;display:none;
+              border: 1px solid black;
+}
+
+/*Student_Info*/
+
+#Student_Data table{
+    display:table;
+}
+
+#Student_Data tr{
+    display:block;
+     text-align: center;
+}
+
+    #Student_Data tr td, #Student_Data tr th {
+        width: 20%;
+        display: table-cell;
+       
+    }
+     
+.loading img{
+        width: 35px;
+  margin-left: 40%;
+    }
+
+
+.student_atten{
+    float:left;
+    margin-left:10%;
+    width:80%;
+    margin-bottom:2%;
+}
+
+
+.studentinfo{
+    width:100%;
+    background-color: gainsboro;
+    float:left;
+    border-top-right-radius: 4vh;
+    border-top-left-radius: 7vh;
+    border-bottom-right-radius: 2vh;
+    border-bottom-left-radius: 7vh;
+}
+
+
+.st_pic img{
+    width:20%;
+    float:left
+}
+
+.number{
+    float:left;
+    width:80%;
+}
+
+.stu_name{
+    float:left;width:80%;display:none;
+}
+
+#l_p_s_0,#l_a_s_0{
+   float:left;
+   margin-top:10px;
+}
+
+
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+ #mainmenu{
+width: 375px;
+  height:auto;
+ margin-left: 35%;
+  background-color:white;
+   position:relative;
+ }
+ 
+}
+
+
+

@@ -1,0 +1,40 @@
+﻿/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+
+body{
+    font-size: 16px;
+}
+
+.studentinfo{
+    border-top-left-radius: 7vh;
+    border-bottom-left-radius: 7vh;
+}
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media screen and (orientation: landscape)
+and (min-device-width : 321px) 
+and (max-device-width : 480px){
+/* Styles */
+
+body{
+    font-size: 18px;
+}
+
+.studentinfo{
+    border-top-left-radius: 15vh;
+    border-bottom-left-radius: 15vh;
+}
+
+
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
