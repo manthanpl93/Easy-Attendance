@@ -6,4 +6,5 @@ details with their smart phone.
 
 Completed this project using C#, Ajax, Asp.Net, PL-SQL
 
-Preview: https://www.youtube.com/watch?v=0mD2ZAqgXz4&t=43s
+Preview: https://www.youtube.com/watch?v=B1z4sjd-wQQ
+
